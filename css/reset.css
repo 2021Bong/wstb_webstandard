@@ -22,7 +22,7 @@ body, input, textarea, select, button, table {
   color: #222; font-size: 13px; line-height: 1.5;}
 
 /* reset font style */
-em {
+em, address {
   font-style: normal;
 }
 
@@ -33,6 +33,11 @@ dl,ul,li,ol,menu {
 
 /* title tag reset */
 h1,h2,h3,h4,h5,h6 {font-size: 13px; font-weight: normal;}
+
+/* border reset */
+img, fieldset {
+  border: 0 none;
+}
 
   /* IR(Image Replacement) */
   /* 의미있는 이미지의 대체 텍스트를 제공하는 경우 */
