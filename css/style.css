@@ -16,8 +16,8 @@
   background-color: #333;
 }
 #skip a:active,
-#skip a:focus{
-  top:0;
+#skip a:focus {
+  top: 0;
 }
 
 /* layout */
@@ -29,7 +29,6 @@
   background: url(../img/header_bg.jpeg) center top repeat-x;
 }
 #contents {
-
 }
 #footer {
   border-top: 1px solid #eee;
@@ -40,7 +39,8 @@
   background-color: #f6fdff;
 }
 #cont-tit {
-  background-color: #EAF7FD; background: rgba(154, 216, 244, 0.2);
+  background-color: #eaf7fd;
+  background: rgba(154, 216, 244, 0.2);
 }
 
 #cont-ban {
@@ -71,24 +71,24 @@
 .header .header-menu a:hover {
   color: #666;
 }
-.header  .header-tit {
+.header .header-tit {
   text-align: center;
 }
-.header  .header-tit h1 {
+.header .header-tit h1 {
   display: inline-block;
   background: #4aa8d4;
   font-size: 24px;
-  padding:5px 20px 6px 20px;
+  padding: 5px 20px 6px 20px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 40px;
   color: #fff;
 }
-.header  .header-tit a {
+.header .header-tit a {
   display: inline-block;
   background: #4aa8d4;
   font-size: 18px;
-  padding:5px 20px 6px 20px;
+  padding: 5px 20px 6px 20px;
   font-weight: 400;
   margin-top: -5px;
   text-transform: uppercase;
@@ -100,21 +100,37 @@
 .header .header-icon {
   text-align: center;
 }
-.header .header-icon a{
+.header .header-icon a {
   width: 60px;
   height: 60px;
   display: inline-block;
   background: url(../img/icon.png);
   margin: 30px 0px;
 }
-.header .header-icon a.icon1 {background-position: 0 0;}
-.header .header-icon a.icon2 {background-position: 0 -60px;}
-.header .header-icon a.icon3 {background-position: 0 -120px;}
-.header .header-icon a.icon4 {background-position: 0 -180px;}
-.header .header-icon a.icon1:hover {background-position: -60px 0;}
-.header .header-icon a.icon2:hover {background-position: -60px -60px;}
-.header .header-icon a.icon3:hover {background-position: -60px -120px;}
-.header .header-icon a.icon4:hover {background-position: -60px -180px;}
+.header .header-icon a.icon1 {
+  background-position: 0 0;
+}
+.header .header-icon a.icon2 {
+  background-position: 0 -60px;
+}
+.header .header-icon a.icon3 {
+  background-position: 0 -120px;
+}
+.header .header-icon a.icon4 {
+  background-position: 0 -180px;
+}
+.header .header-icon a.icon1:hover {
+  background-position: -60px 0;
+}
+.header .header-icon a.icon2:hover {
+  background-position: -60px -60px;
+}
+.header .header-icon a.icon3:hover {
+  background-position: -60px -120px;
+}
+.header .header-icon a.icon4:hover {
+  background-position: -60px -180px;
+}
 
 /* main menu*/
 .nav {
@@ -167,12 +183,12 @@
 }
 
 .tit h2 {
-  font-family: 'Nanum Myeongjo', serif;
+  font-family: "Nanum Myeongjo", serif;
   font-size: 20px;
   text-align: center;
   padding: 20px 0;
   letter-spacing: 2px;
-  color: #2c94c9
+  color: #2c94c9;
 }
 
 .tit .btn {
@@ -277,11 +293,9 @@
 }
 .cont .col4 {
   border-right: 1px solid #c8c8c8;
-  
 }
 .cont .col5 {
   border-right: 1px solid #c8c8c8;
-  
 }
 .cont .col6 {
   margin: 0;
@@ -437,7 +451,7 @@
   padding: 5px 0 40px 80px;
   font-size: 12px;
 }
-.notice3 li a img{
+.notice3 li a img {
   width: 70px;
   position: absolute;
   left: 0;
@@ -445,11 +459,11 @@
   border: 2px solid #25a2d0;
   border-radius: 8%;
 }
-.notice3 li strong{
+.notice3 li strong {
   display: block;
   text-align: left;
 }
-.notice3 li span{
+.notice3 li span {
   display: block;
 }
 .notice3 .more {
@@ -479,7 +493,7 @@
 .notice_hover li:last-child {
   margin-right: 0;
 }
-.notice_hover li a span{
+.notice_hover li a span {
   position: relative;
   display: block;
   width: 93px;
@@ -512,13 +526,12 @@
 
 /* mouse hover2 */
 .notice_hover2 {
-
 }
 .notice_hover2 ul {
   overflow: hidden;
 }
 .notice_hover2 li {
-  float: left; 
+  float: left;
   width: 93px;
   text-align: center;
   margin-right: 5px;
@@ -546,7 +559,6 @@
 }
 .notice_hover2 li a span:hover em {
   visibility: visible;
-
 }
 .notice_hover2 li a strong {
   padding-top: 3px;
@@ -561,53 +573,57 @@
 4. width: 0; height: 0; overflow: hidden; */
 
 /* tab_menu */
-.tab_menu {
+#tab_menu {
   position: relative;
   border: 1px solid #ccc;
   padding: 8px;
   height: 105px;
 }
-.tab_menu ul {
+#tab_menu ul {
   overflow: hidden;
   border-bottom: 1px solid #ccc;
 }
-.tab_menu ul li {
+#tab_menu ul li {
   float: left;
   border: 1px solid #25a2d0;
   margin-right: -1px;
   margin-bottom: -1px;
 }
-.tab_menu ul li a {
+#tab_menu ul li a {
   padding: 5px 10px;
   display: block;
 }
-.tab_menu ul li ul {
+#tab_menu ul li ul {
+  display: none;
   position: absolute;
   left: 0;
   top: 48px;
   border: 0;
   width: 270px;
 }
-.tab_menu ul li ul li {
+#tab_menu ul li.active ul {
+  display: block;
+}
+#tab_menu ul li ul li {
   float: none;
   border: 0;
   padding-left: 18px;
   background: url(../img/dot.gif) no-repeat 9px 8px;
 }
-.tab_menu ul li ul li a {
+#tab_menu ul li ul li a {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   width: 100%;
   padding: 0 0 3px 0;
 }
-.tab_menu ul li.active {
+#tab_menu ul li.active {
   background: #2c94c9;
 }
-.tab_menu ul li.active a {
+#tab_menu ul li.active a {
   color: #fff;
 }
-.tab_menu ul li.active ul li a {
+#tab_menu ul li.active ul li a {
   color: #333;
 }
 
@@ -620,7 +636,7 @@
 .notice4 h4 {
   font-size: 14px;
   color: #0093bd;
-  font-weight: 700; 
+  font-weight: 700;
   padding: 8px 10px;
   border-bottom: 1px solid #ccc;
 }
@@ -637,14 +653,14 @@
   padding-left: 8px;
   padding-bottom: 2px;
 }
-.notice4 ul li a{
+.notice4 ul li a {
   float: left;
   width: 70%;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.notice4 ul li span{
+.notice4 ul li span {
   float: right;
   text-align: right;
   width: 30%;
@@ -685,7 +701,7 @@
   display: block;
   width: 23px;
   height: 23px;
-  background:url(../img/icon.png) no-repeat;
+  background: url(../img/icon.png) no-repeat;
 }
 .gallery .gallery_btn li.gb_icon1 a {
   background-position: -150px -120px;
@@ -730,7 +746,7 @@
   float: left;
   margin-right: 15px;
 }
-.login_header .lh_check .input_check{
+.login_header .lh_check .input_check {
   vertical-align: -2px;
 }
 .login_header .lh_ip {
@@ -744,7 +760,6 @@
   position: relative;
 }
 .login_content .lc_text {
-
 }
 .login_content .input_text {
   width: 182px;
@@ -809,7 +824,7 @@
   padding: 0 4px 0 6px;
 }
 .footer li:before {
-  content: '';
+  content: "";
   width: 1px;
   height: 12px;
   background: #ccc;
